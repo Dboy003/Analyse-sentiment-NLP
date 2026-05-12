@@ -1,4 +1,6 @@
 data/Reviews.csv
+data/database.sqlite
+data/hashes.txt
 venv/
 __pycache__/
 *.pyc
