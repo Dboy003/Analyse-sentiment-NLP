@@ -1,6 +1,6 @@
-data/Reviews.csv
-data/database.sqlite
-data/hashes.txt
+data/
+outputs/
 venv/
 __pycache__/
 *.pyc
+config.py
