@@ -23,7 +23,7 @@ def charger_modele():
 
 @st.cache_data
 def charger_donnees():
-    return pd.read_csv("outputs/02_data_nettoyee.csv")
+    return pd.read_csv("outputs/data_dashboard.csv")
 
 @st.cache_data
 def charger_mots_cles():
