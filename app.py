@@ -79,7 +79,12 @@ elif page == "Visualisations":
 
     col1, col2 = st.columns(2)
 
-    repartition = df["sentiment"].value_counts()
+    # Vraies statistiques du dataset complet (568 453 avis)
+    repartition = pd.Series({
+    "positif": 443776,
+    "negatif": 82037,
+    "neutre" : 42640
+    })
     couleurs    = ["#2ecc71", "#e74c3c", "#f39c12"]
 
     # Camembert
