@@ -1,0 +1,11 @@
+sentiment,topic,mots
+positif,Topic 1,"like, taste, flavor, good, chocolate, great, love, chip, snack, one"
+positif,Topic 2,"amazon, product, great, store, price, love, find, good, time, buy"
+positif,Topic 3,"tea, water, taste, drink, like, good, flavor, use, one, product"
+positif,Topic 4,"food, dog, cat, treat, love, one, like, get, would, eat"
+positif,Topic 5,"coffee, flavor, like, cup, taste, good, one, great, sauce, make"
+negatif,Topic 1,"box, chocolate, taste, like, product, bag, would, bar, one, chip"
+negatif,Topic 2,"like, taste, would, dog, one, flavor, good, eat, product, really"
+negatif,Topic 3,"product, amazon, dog, one, food, would, price, order, time, item"
+negatif,Topic 4,"food, cat, day, would, eat, eating, diet, water, ingredient, thing"
+negatif,Topic 5,"coffee, taste, tea, like, flavor, cup, drink, would, one, good"
