@@ -3,6 +3,9 @@
 > Pipeline NLP end-to-end pour extraire automatiquement les points
 > positifs et négatifs de 568 454 avis clients Amazon.
 
+## 🚀 Demo en ligne
+👉 [Accéder au dashboard](https://analyse-sentiment-nlp-9hb4rudvsmrpva6wjswohn.streamlit.app/)
+
 ## 📊 Résultats
 
 | Métrique | Valeur |
