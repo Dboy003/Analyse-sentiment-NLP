@@ -17,21 +17,20 @@ st.set_page_config(
 )
 
 # ─── Chargement des ressources ──────────────────────────────────────────────
-@st.cache_resource
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def charger_modele():
-    return joblib.load("outputs/modele_sentiment.pkl")
+    return joblib.load(os.path.join(BASE_DIR, "outputs", "modele_sentiment.pkl"))
 
-@st.cache_data
 def charger_donnees():
-    return pd.read_csv("outputs/data_dashboard.csv")
+    return pd.read_csv(os.path.join(BASE_DIR, "outputs", "data_dashboard.csv"))
 
-@st.cache_data
 def charger_mots_cles():
-    return pd.read_csv("outputs/04_mots_cles.csv")
+    return pd.read_csv(os.path.join(BASE_DIR, "outputs", "04_mots_cles.csv"))
 
-@st.cache_data
 def charger_topics():
-    return pd.read_csv("outputs/04_topics_lda.csv")
+    return pd.read_csv(os.path.join(BASE_DIR, "outputs", "04_topics_lda.csv"))
 
 nltk.download("stopwords", quiet=True)
 nltk.download("wordnet", quiet=True)
