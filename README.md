@@ -1,4 +1,4 @@
-# 💬 Analyse de Sentiment — Avis Produits Amazon
+# 💬 Analyse de Sentiment : Avis Produits Amazon
 
 > Pipeline NLP end-to-end pour extraire automatiquement les points
 > positifs et négatifs de 568 454 avis clients Amazon.
@@ -75,6 +75,7 @@ streamlit run app.py
 ```
 
 ## 📈 Pipeline NLP
+```text
 Données brutes (Reviews.csv)
 ↓
 Exploration & labélisation (01)
@@ -86,6 +87,7 @@ Modélisation SVM (03)
 Extraction topics TF-IDF + LDA (04)
 ↓
 Dashboard Streamlit (app.py)
+```
 
 ## 🔍 Fonctionnalités du dashboard
 
