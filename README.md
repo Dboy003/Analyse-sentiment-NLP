@@ -29,6 +29,7 @@
 - **Versioning** : Git / GitHub
 
 ## 📁 Structure du projet
+```text
 Analyse-sentiment-NLP/
 ├── notebooks/
 │   ├── 01_exploration.ipynb     ← Exploration du dataset
@@ -39,6 +40,7 @@ Analyse-sentiment-NLP/
 ├── app.py                       ← Dashboard Streamlit
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 Lancer le projet
 
